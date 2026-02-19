@@ -18,8 +18,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="*" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="*" />
 
-    <!-- RAG용 Vector Store (5장): SemanticKernel InMemory 커넥터 사용 -->
-    <PackageReference Include="Microsoft.SemanticKernel.Connectors.InMemory" Version="1.*-preview.*" />
+    <!-- RAG용 임베딩 생성 (5장): Microsoft.Extensions.AI.OpenAI의 AsIEmbeddingGenerator() 사용 -->
     <!-- Microsoft.Extensions.AI.OpenAI는 Agent Framework가 요구하는 버전에 맞춤 -->
     <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.*-preview.*" />
 

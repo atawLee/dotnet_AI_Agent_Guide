@@ -37,7 +37,9 @@ switch (sample)
         await MultiTurn.RunAsync(config);
         break;
     // case "04": await Memory.RunAsync(config); break;
-    // case "05": await RAG.RunAsync(config); break;
+    case "05":
+        await RAGSample.RunAsync(config);
+        break;
     // case "06": await MultiAgent.RunAsync(config); break;
     // case "07": await Middleware.RunAsync(config); break;
     default:
