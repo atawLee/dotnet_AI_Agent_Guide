@@ -1,0 +1,20 @@
+# .NET 빌드 산출물
+bin/
+obj/
+*.user
+.vs/
+
+# 로컬 설정 파일 (민감 정보 포함 — Git에 절대 커밋하지 않음)
+appsettings.local.json
+
+# dotnet user-secrets (별도 경로에 저장되므로 보통 불필요하지만 명시)
+# ~/.microsoft/usersecrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.suo
+*.sln.docstates
