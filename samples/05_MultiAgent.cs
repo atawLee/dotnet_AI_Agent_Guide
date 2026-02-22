@@ -1,7 +1,7 @@
 // ============================================================
-// Chapter 6: 멀티 에이전트 협업
-// 파일: samples/06_MultiAgent.cs
-// 관련 문서: docs/06-multi-agent.md
+// Chapter 5: 멀티 에이전트 협업
+// 파일: samples/05_MultiAgent.cs
+// 관련 문서: docs/05-multi-agent.md
 //
 // 패턴: 오케스트레이터(Orchestrator) + 전문 에이전트(Specialist)
 //
@@ -18,7 +18,7 @@
 // → 오케스트레이터가 필요 시 Tool(전문 에이전트)을 자동 호출
 //
 // 실행 방법:
-//   dotnet run --project AgentSamples.csproj -- 06
+//   dotnet run --project AgentSamples.csproj -- 05
 // ============================================================
 
 using Azure;

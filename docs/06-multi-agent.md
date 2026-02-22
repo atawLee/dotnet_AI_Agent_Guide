@@ -138,7 +138,7 @@ dotnet run -- 06
 
 ## 전체 코드
 
-`samples/06_MultiAgent.cs` 참조.
+`samples/05_MultiAgent.cs` 참조.
 
 ## 멀티 에이전트 설계 팁
 

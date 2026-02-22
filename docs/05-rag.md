@@ -192,7 +192,7 @@ A: CloudERP Pro는 99.9% SLA를 보장합니다.
 
 ## 전체 코드
 
-`samples/05_RAG.cs` 참조.
+`samples/04_RAG.cs` 참조.
 
 ## RAG 품질 개선 팁
 

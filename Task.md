@@ -46,9 +46,9 @@
 
 | # | 태스크 | 상태 | 산출물 |
 |---|---|---|---|
-| 1-1 | `docs/` 디렉터리 생성 | `[ ]` | `docs/` |
-| 1-2 | `samples/` 디렉터리 생성 | `[ ]` | `samples/` |
-| 1-3 | `samples/AgentSamples.csproj` 생성 | `[ ]` | .NET 10 Console 프로젝트, 전체 패키지 참조 포함 |
+| 1-1 | `docs/` 디렉터리 생성 | `[x]` | `docs/` |
+| 1-2 | `samples/` 디렉터리 생성 | `[x]` | `samples/` |
+| 1-3 | `samples/AgentSamples.csproj` 생성 | `[x]` | .NET 10 Console 프로젝트, 전체 패키지 참조 포함 |
 
 **`AgentSamples.csproj` 포함 패키지:**
 - `Microsoft.Agents.AI.OpenAI` `1.0.0-preview.*`
@@ -62,13 +62,13 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 1-4 | 가이드 소개 및 목적 작성 | `[ ]` | 한 문단, 대상 독자 명시 |
-| 1-5 | 기술 스택 뱃지/표 추가 | `[ ]` | .NET 10, Agent Framework, Azure OpenAI |
-| 1-6 | 사전 요구사항 섹션 작성 | `[ ]` | .NET 10 SDK, Azure CLI, Azure OpenAI 리소스 |
-| 1-7 | 빠른 시작 (Quick Start) 섹션 작성 | `[ ]` | 레포 클론 → 패키지 설치 → 환경 변수 → 첫 실행 4단계 |
-| 1-8 | 챕터 목차 링크 테이블 작성 | `[ ]` | 7개 챕터 → `docs/` 링크 연결 |
-| 1-9 | Public Preview 경고 배너 추가 | `[ ]` | `> ⚠️ Microsoft Agent Framework는 현재 public preview...` |
-| 1-10 | 참고 자료 & 라이선스 섹션 추가 | `[ ]` | GitHub, MS Learn, NuGet 링크 |
+| 1-4 | 가이드 소개 및 목적 작성 | `[x]` | 한 문단, 대상 독자 명시 |
+| 1-5 | 기술 스택 뱃지/표 추가 | `[x]` | .NET 10, Agent Framework, Azure OpenAI |
+| 1-6 | 사전 요구사항 섹션 작성 | `[x]` | .NET 10 SDK, Azure CLI, Azure OpenAI 리소스 |
+| 1-7 | 빠른 시작 (Quick Start) 섹션 작성 | `[x]` | 레포 클론 → 패키지 설치 → 환경 변수 → 첫 실행 4단계 |
+| 1-8 | 챕터 목차 링크 테이블 작성 | `[x]` | 7개 챕터 → `docs/` 링크 연결 |
+| 1-9 | Public Preview 경고 배너 추가 | `[x]` | `> ⚠️ Microsoft Agent Framework는 현재 public preview...` |
+| 1-10 | 참고 자료 & 라이선스 섹션 추가 | `[x]` | GitHub, MS Learn, NuGet 링크 |
 
 ---
 
@@ -80,23 +80,23 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 2-1 | Microsoft Agent Framework 개요 작성 | `[ ]` | Semantic Kernel + AutoGen의 후속임을 설명, 배경 맥락 |
-| 2-2 | 프레임워크 비교표 작성 | `[ ]` | Semantic Kernel / AutoGen / Agent Framework 3열 비교 (7개 항목) |
-| 2-3 | 아키텍처 다이어그램(텍스트) 작성 | `[ ]` | 사용자 입력 → Middleware → AIAgent → Tool Loop → Session → 응답 |
-| 2-4 | 사전 요구사항 체크리스트 작성 | `[ ]` | .NET 10, Azure CLI, 환경 변수 3종 |
-| 2-5 | 프로젝트 생성 커맨드 블록 작성 | `[ ]` | `dotnet new console`, 각 패키지 `dotnet add package` |
-| 2-6 | 환경 변수 설정 방법 (`dotnet user-secrets`) 작성 | `[ ]` | `user-secrets init`, `user-secrets set` 명령어 예시 |
-| 2-7 | Public Preview 주의사항 섹션 추가 | `[ ]` | 버전 표기 방식, 변경 가능성 안내 |
+| 2-1 | Microsoft Agent Framework 개요 작성 | `[x]` | Semantic Kernel + AutoGen의 후속임을 설명, 배경 맥락 |
+| 2-2 | 프레임워크 비교표 작성 | `[x]` | Semantic Kernel / AutoGen / Agent Framework 3열 비교 (7개 항목) |
+| 2-3 | 아키텍처 다이어그램(텍스트) 작성 | `[x]` | 사용자 입력 → Middleware → AIAgent → Tool Loop → Session → 응답 |
+| 2-4 | 사전 요구사항 체크리스트 작성 | `[x]` | .NET 10, Azure CLI, 환경 변수 3종 |
+| 2-5 | 프로젝트 생성 커맨드 블록 작성 | `[x]` | `dotnet new console`, 각 패키지 `dotnet add package` |
+| 2-6 | 환경 변수 설정 방법 (`appsettings.local.json`) 작성 | `[x]` | `AzureKeyCredential` 방식, 설정 키 패턴 |
+| 2-7 | Public Preview 주의사항 섹션 추가 | `[x]` | 버전 표기 방식, 변경 가능성 안내 |
 
 ### 2-B. `docs/02-first-agent.md` — 첫 번째 Agent 만들기
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 2-8 | `AIAgent` 개념 설명 작성 | `[ ]` | LLM Client 래퍼, `AsAIAgent()` 확장 메서드 역할 |
-| 2-9 | `AzureOpenAIClient` → `GetChatClient()` → `AsAIAgent()` 연결 흐름 설명 | `[ ]` | 3줄 체인 설명, 각 단계 역할 |
-| 2-10 | `RunAsync()` vs `RunStreamingAsync()` 비교 섹션 작성 | `[ ]` | 반환 타입, 사용 시나리오, 코드 스니펫 |
-| 2-11 | 에러 처리 패턴 (흔한 오류 3가지) 작성 | `[ ]` | Endpoint 오류 / 인증 오류 / 모델 없음 |
-| 2-12 | 샘플 코드 참조 링크 및 실행 방법 작성 | `[ ]` | `../samples/01_HelloAgent.cs` 링크, 실행 커맨드 |
+| 2-8 | `AIAgent` 개념 설명 작성 | `[x]` | LLM Client 래퍼, `AsAIAgent()` 확장 메서드 역할 |
+| 2-9 | `AzureOpenAIClient` → `GetChatClient()` → `AsAIAgent()` 연결 흐름 설명 | `[x]` | 3줄 체인 설명, 각 단계 역할 |
+| 2-10 | `RunAsync()` vs `RunStreamingAsync()` 비교 섹션 작성 | `[x]` | 반환 타입, 사용 시나리오, 코드 스니펫 |
+| 2-11 | 에러 처리 패턴 (흔한 오류 3가지) 작성 | `[x]` | Endpoint 오류 / 인증 오류 / 모델 없음 |
+| 2-12 | 샘플 코드 참조 링크 및 실행 방법 작성 | `[x]` | `../samples/01_HelloAgent.cs` 링크, 실행 커맨드 |
 
 ---
 
@@ -108,22 +108,22 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 3-1 | 파일 상단 주석 블록 작성 | `[ ]` | 챕터명, 환경 변수, 실행 방법 명시 |
-| 3-2 | 환경 변수 로드 및 검증 코드 작성 | `[ ]` | `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_DEPLOYMENT_NAME` |
-| 3-3 | `AzureOpenAIClient` + `AsAIAgent()` 초기화 코드 작성 | `[ ]` | `AzureCliCredential` 사용 |
-| 3-4 | `RunAsync()` 단일 응답 예제 코드 작성 | `[ ]` | 질문 1개, 콘솔 출력 |
-| 3-5 | `RunStreamingAsync()` 스트리밍 예제 코드 작성 | `[ ]` | `await foreach`, `Console.Write(chunk)` |
-| 3-6 | `try/catch` 에러 처리 코드 작성 | `[ ]` | `RequestFailedException`, 일반 `Exception` |
+| 3-1 | 파일 상단 주석 블록 작성 | `[x]` | 챕터명, 환경 변수, 실행 방법 명시 |
+| 3-2 | 환경 변수 로드 및 검증 코드 작성 | `[x]` | `appsettings.local.json` → `AzureKeyCredential` |
+| 3-3 | `AzureOpenAIClient` + `AsAIAgent()` 초기화 코드 작성 | `[x]` | `AzureKeyCredential` 사용 |
+| 3-4 | `RunAsync()` 단일 응답 예제 코드 작성 | `[x]` | 질문 1개, 콘솔 출력 |
+| 3-5 | `RunStreamingAsync()` 스트리밍 예제 코드 작성 | `[x]` | `await foreach`, `Console.Write(chunk)` |
+| 3-6 | `try/catch` 에러 처리 코드 작성 | `[x]` | `RequestFailedException`, 일반 `Exception` |
 
 ### 3-B. `samples/02_AddTools.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 3-7 | 날씨 조회 Tool 함수 작성 | `[ ]` | `[Description]` 어트리뷰트, 목업 데이터 반환 |
-| 3-8 | 현재 시각 반환 Tool 함수 작성 | `[ ]` | `DateTime.Now` 포맷 반환 |
-| 3-9 | 계산기 Tool 함수 작성 | `[ ]` | `Add(double a, double b)`, `Multiply(double a, double b)` |
-| 3-10 | `AIFunctionFactory.Create()` 로 3개 Tool 등록 및 Agent 생성 | `[ ]` | `tools` 파라미터에 배열로 전달 |
-| 3-11 | Tool 호출을 유발하는 질문 3개로 Agent 실행 코드 작성 | `[ ]` | 날씨/시각/계산 각 1회 |
+| 3-7 | 날씨 조회 Tool 함수 작성 | `[x]` | `[Description]` 어트리뷰트, 목업 데이터 반환 |
+| 3-8 | 현재 시각 반환 Tool 함수 작성 | `[x]` | `DateTime.Now` 포맷 반환 |
+| 3-9 | 계산기 Tool 함수 작성 | `[x]` | `Add(double a, double b)`, `Multiply(double a, double b)` |
+| 3-10 | `AIFunctionFactory.Create()` 로 3개 Tool 등록 및 Agent 생성 | `[x]` | `tools` 파라미터에 배열로 전달 |
+| 3-11 | Tool 호출을 유발하는 질문 3개로 Agent 실행 코드 작성 | `[x]` | 날씨/시각/계산 각 1회 |
 
 ---
 
@@ -135,97 +135,97 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 4-1 | Tool Use 개념 및 ReAct 패턴 설명 작성 | `[ ]` | 텍스트 플로우 다이어그램, Reasoning + Acting 루프 |
-| 4-2 | `[Description]` 어트리뷰트 작성 가이드라인 작성 | `[ ]` | 좋은 설명 vs 나쁜 설명 예시 비교 |
-| 4-3 | `AIFunctionFactory.Create()` 오버로드 설명 | `[ ]` | 정적/인스턴스/비동기 메서드 등록 방법 |
-| 4-4 | Tool 파라미터 타입 매핑표 작성 | `[ ]` | C# `string/int/bool/DateTime/enum` → JSON Schema 대응 |
-| 4-5 | Tool 디버깅 팁 섹션 작성 | `[ ]` | 호출 로그 확인, 파라미터 검증, 호출 횟수 제한 |
-| 4-6 | Provider별 Tool 지원 행렬 표 삽입 | `[ ]` | Chat Completion / Responses / Assistants 비교 |
+| 4-1 | Tool Use 개념 및 ReAct 패턴 설명 작성 | `[x]` | 텍스트 플로우 다이어그램, Reasoning + Acting 루프 |
+| 4-2 | `[Description]` 어트리뷰트 작성 가이드라인 작성 | `[x]` | 좋은 설명 vs 나쁜 설명 예시 비교 |
+| 4-3 | `AIFunctionFactory.Create()` 오버로드 설명 | `[x]` | 정적/인스턴스/비동기 메서드 등록 방법 |
+| 4-4 | Tool 파라미터 타입 매핑표 작성 | `[x]` | C# `string/int/bool/DateTime/enum` → JSON Schema 대응 |
+| 4-5 | Tool 디버깅 팁 섹션 작성 | `[x]` | 호출 로그 확인, 파라미터 검증, 호출 횟수 제한 |
+| 4-6 | Provider별 Tool 지원 행렬 표 삽입 | `[x]` | Chat Completion / Responses / Assistants 비교 |
 
 ### 4-B. `docs/04-memory-session.md` — 메모리 & 세션 관리
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 4-7 | Stateless vs Stateful Agent 비교 설명 작성 | `[ ]` | 코드 없이 개념만, 각 사용 케이스 |
-| 4-8 | `AgentSession` 기본 사용법 작성 | `[ ]` | `CreateSessionAsync()`, 세션 전달, 내부 동작 원리 |
-| 4-9 | 세션 ID 관리 및 영속성 한계 섹션 작성 | `[ ]` | InMemory 한계, Durable Task 연동 가능성 언급 |
-| 4-10 | Context Provider 인터페이스 설명 작성 | `[ ]` | `before_run` / `after_run` 훅 역할, 호출 순서 |
-| 4-11 | 여러 Context Provider 체인 패턴 설명 작성 | `[ ]` | Provider 배열 순서 규칙, 실행 순서 다이어그램 |
+| 4-7 | Stateless vs Stateful Agent 비교 설명 작성 | `[x]` | 코드 없이 개념만, 각 사용 케이스 |
+| 4-8 | `AgentSession` 기본 사용법 작성 | `[x]` | `CreateSessionAsync()`, 세션 전달, 내부 동작 원리 |
+| 4-9 | 세션 ID 관리 및 영속성 한계 섹션 작성 | `[x]` | InMemory 한계, Durable Task 연동 가능성 언급 |
+| 4-10 | Context Provider 인터페이스 설명 작성 | `[x]` | `before_run` / `after_run` 훅 역할, 호출 순서 |
+| 4-11 | 여러 Context Provider 체인 패턴 설명 작성 | `[x]` | Provider 배열 순서 규칙, 실행 순서 다이어그램 |
 
 ### 4-C. `samples/03_MultiTurn.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 4-12 | `AgentSession` 생성 및 멀티턴 대화 코드 작성 | `[ ]` | 3턴 대화 (이름 알리기 → 날씨 → 이름 기억 확인) |
-| 4-13 | 세션 없는 경우와 있는 경우 비교 출력 코드 작성 | `[ ]` | 같은 질문을 세션 유무로 각각 실행, 결과 비교 |
+| 4-12 | `AgentSession` 생성 및 멀티턴 대화 코드 작성 | `[x]` | 3턴 대화 (이름 알리기 → 날씨 → 이름 기억 확인) |
+| 4-13 | 세션 없는 경우와 있는 경우 비교 출력 코드 작성 | `[x]` | 같은 질문을 세션 유무로 각각 실행, 결과 비교 |
 
 ### 4-D. `samples/04_Memory.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 4-14 | `UserNameContextProvider` 클래스 구현 | `[ ]` | `before_run`에서 이름 주입, `after_run`에서 이름 추출 |
-| 4-15 | Context Provider를 포함한 Agent 생성 코드 작성 | `[ ]` | `context_providers` 파라미터 |
-| 4-16 | Provider 동작 확인용 3턴 시나리오 실행 코드 작성 | `[ ]` | 이름 모름 → 이름 알려줌 → 이름 확인 |
+| 4-14 | `UserNameContextProvider` 클래스 구현 | `[-]` | 03_MultiTurn.cs에 통합됨 |
+| 4-15 | Context Provider를 포함한 Agent 생성 코드 작성 | `[-]` | 03_MultiTurn.cs에 통합됨 |
+| 4-16 | Provider 동작 확인용 3턴 시나리오 실행 코드 작성 | `[-]` | 03_MultiTurn.cs에 통합됨 |
 
 ---
 
 ## Phase 5 — RAG 문서 & 코드 작성
 
-> 목표: InMemory Vector Store를 사용한 완전한 RAG 파이프라인을 문서화하고 구현한다.
+> 목표: InMemory 벡터 인덱스를 사용한 완전한 RAG 파이프라인을 문서화하고 구현한다.
 
 ### 5-A. `docs/05-rag.md` — RAG 검색 증강 생성
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 5-1 | RAG 개념 및 필요성 설명 작성 | `[ ]` | LLM 한계 2가지, RAG가 해결하는 방식 |
-| 5-2 | RAG 3단계 파이프라인 다이어그램 작성 | `[ ]` | 문서 준비 → 쿼리 처리 → 답변 생성, 각 단계 기술 설명 |
-| 5-3 | RAG vs Fine-tuning 비교표 작성 | `[ ]` | 비용/속도/신선도/정확도 4가지 기준 비교 |
-| 5-4 | `Microsoft.Extensions.VectorData` 추상화 설명 작성 | `[ ]` | `IVectorStore` 인터페이스, 플러그인 교체 방식 |
-| 5-5 | `[VectorStoreRecordData]` / `[VectorStoreRecordVector]` 어트리뷰트 설명 작성 | `[ ]` | 데이터 모델 정의 방법, 필드별 역할 |
-| 5-6 | 임베딩 모델 설정 및 차원 수 주의사항 작성 | `[ ]` | `text-embedding-3-small` 1536차원, `ada-002` 1536차원 |
-| 5-7 | 청크 전략 및 RAG 품질 개선 팁 작성 | `[ ]` | 청크 크기 선택 기준, top-K 설정, 메타데이터 활용 |
-| 5-8 | InMemory → Azure AI Search 교체 시 변경 범위 설명 작성 | `[ ]` | 의존성 교체 1줄로 가능함을 코드로 보여줌 |
+| 5-1 | RAG 개념 및 필요성 설명 작성 | `[x]` | LLM 한계, RAG가 해결하는 방식 |
+| 5-2 | RAG 4단계 파이프라인 다이어그램 작성 | `[x]` | 임베딩 → 검색 → 주입 → 생성 |
+| 5-3 | 핵심 개념 표 작성 | `[x]` | 임베딩/청킹/벡터 검색/컨텍스트 주입 |
+| 5-4 | `IEmbeddingGenerator` + `AsIEmbeddingGenerator()` 설명 작성 | `[x]` | MEAI 추상화, EmbeddingClient 변환 |
+| 5-5 | `IndexedChunk` 레코드 및 코사인 유사도 구현 설명 작성 | `[x]` | 인메모리 인덱스 패턴 |
+| 5-6 | 색인/검색/프롬프트 조합 단계별 코드 설명 작성 | `[x]` | 3단계 파이프라인 전체 |
+| 5-7 | RAG 품질 개선 팁 표 작성 | `[x]` | 청크 크기/오버랩/하이브리드/Re-ranking/메타데이터 |
+| 5-8 | 프로덕션 벡터 DB 선택지 안내 작성 | `[x]` | Azure AI Search / Qdrant / pgvector |
 
-### 5-B. `samples/05_RAG.cs`
+### 5-B. `samples/04_RAG.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 5-9 | `DocumentChunk` 레코드 모델 정의 | `[ ]` | `Id(Guid)`, `Content(string)`, `Source(string)`, `Embedding(float[])` |
-| 5-10 | InMemory Vector Store 초기화 코드 작성 | `[ ]` | `InMemoryVectorStore`, `GetCollection<Guid, DocumentChunk>()` |
-| 5-11 | 샘플 문서 5개 준비 (하드코딩) | `[ ]` | Agent Framework 관련 FAQ 형식 5문항 |
-| 5-12 | Azure OpenAI 임베딩 클라이언트 설정 코드 작성 | `[ ]` | `AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME` 환경 변수 사용 |
-| 5-13 | 문서 임베딩 생성 및 Vector Store 저장 코드 작성 | `[ ]` | `UpsertAsync()` 사용, 배치 처리 |
-| 5-14 | `SearchDocumentsAsync()` Tool 함수 구현 | `[ ]` | 쿼리 임베딩 → `VectorizedSearchAsync()` → 상위 3개 반환 |
-| 5-15 | RAG Agent 생성 및 질의 실행 코드 작성 | `[ ]` | Tool 등록, 3개 질문 실행 (관련 있는 것 2개 + 없는 것 1개) |
+| 5-9 | `IndexedChunk` 레코드 모델 정의 | `[x]` | `Title`, `Text`, `Embedding(float[])` |
+| 5-10 | 코사인 유사도 함수 구현 | `[x]` | `CosineSimilarity(float[], float[])` |
+| 5-11 | 샘플 문서 하드코딩 (회사 소개, 제품 등) | `[x]` | Contoso FAQ 형식 |
+| 5-12 | Azure OpenAI 임베딩 클라이언트 설정 코드 작성 | `[x]` | `EmbeddingDeploymentName` 설정 키 |
+| 5-13 | 문서 색인 생성 및 인메모리 저장 코드 작성 | `[x]` | `GenerateAsync()` + `List<IndexedChunk>` |
+| 5-14 | `RetrieveAsync()` 검색 함수 구현 | `[x]` | 쿼리 임베딩 → Top-K 반환 |
+| 5-15 | RAG Agent 생성 및 질의 실행 코드 작성 | `[x]` | 할루시네이션 억제 instructions, 질의응답 실행 |
 
 ---
 
 ## Phase 6 — 멀티 에이전트 문서 & 코드 작성
 
-> 목표: Agent 위임 패턴과 Workflow 기반 멀티 에이전트를 문서화하고 구현한다.
+> 목표: 전문 에이전트 Tool 위임 패턴을 문서화하고 구현한다.
 
 ### 6-A. `docs/06-multi-agent.md` — 멀티 에이전트 패턴
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 6-1 | 멀티 에이전트 필요성 설명 작성 | `[ ]` | 단일 Agent 한계 3가지, 역할 분리 이점 |
-| 6-2 | 패턴 1: `AsAIFunction()` 위임 방식 설명 작성 | `[ ]` | 개념, 코드 스니펫, 동작 원리, 파라미터 설명 |
-| 6-3 | 패턴 2: `AgentWorkflowBuilder` 방식 설명 작성 | `[ ]` | Executor / Edge / Handler / WorkflowContext 개념 |
-| 6-4 | Executor 정의 2가지 방법 설명 작성 | `[ ]` | 클래스 기반 vs 함수 기반, `[Handler]` 어트리뷰트 |
-| 6-5 | Sequential Workflow 예제 다이어그램 작성 | `[ ]` | 입력 → 전처리 → AI → 후처리 → 출력 텍스트 플로우 |
-| 6-6 | Conditional Routing (분기 처리) 설명 및 코드 스니펫 작성 | `[ ]` | `condition:` 람다 파라미터 설명 |
-| 6-7 | `AsAIFunction` vs `Workflow` 비교표 작성 | `[ ]` | 제어방식/예측가능성/디버깅/적합 케이스 4항목 |
+| 6-1 | 멀티 에이전트 필요성 설명 작성 | `[x]` | 단일 Agent 한계, 역할 분리 이점 |
+| 6-2 | 오케스트레이터 + 전문 에이전트 패턴 다이어그램 작성 | `[x]` | 라우팅 흐름 텍스트 다이어그램 |
+| 6-3 | 전문 에이전트를 `AIFunctionFactory`로 Tool 래핑 방법 설명 | `[x]` | description 작성 가이드라인 포함 |
+| 6-4 | 오케스트레이터 Agent 구성 설명 작성 | `[x]` | `tools:` 파라미터, 라우팅 instructions |
+| 6-5 | 복합 질문 병렬 처리 동작 설명 작성 | `[x]` | 두 Tool 동시 호출 예시 |
+| 6-6 | 멀티 에이전트 설계 팁 표 작성 | `[x]` | 에이전트 경계/Tool description/에러처리/컨텍스트/비용 |
+| 6-7 | `[-]` (AgentWorkflowBuilder 방식은 이번 시리즈 범위 외) | `[-]` | 취소 |
 
-### 6-B. `samples/06_MultiAgent.cs`
+### 6-B. `samples/05_MultiAgent.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 6-8 | 패턴 1 구현: `ResearchAgent` + `SummaryAgent` + `MasterAgent` | `[ ]` | 각 Agent 정의, `AsAIFunction()` 변환, Master Agent 실행 |
-| 6-9 | 패턴 2 구현: `TopicExpander` Executor 클래스 작성 | `[ ]` | `Executor` 상속, `[Handler]` 메서드, `SendMessageAsync()` |
-| 6-10 | 패턴 2 구현: `ContentWriter` AI Agent Executor 작성 | `[ ]` | `AIAgent`를 Executor로 감싸는 패턴 |
-| 6-11 | 패턴 2 구현: `Formatter` 함수 기반 Executor 작성 | `[ ]` | `[Executor(Id = "formatter")]`, `YieldOutputAsync()` |
-| 6-12 | `AgentWorkflowBuilder`로 3단계 파이프라인 연결 및 실행 | `[ ]` | `.AddEdge()` 체인, `.Build()`, `RunAsync()` |
-| 6-13 | Conditional Routing 예제 구현 (긴급/일반 분기) | `[ ]` | 조건 람다 포함 `AddEdge()`, 2가지 입력으로 실행 확인 |
+| 6-8 | `WeatherAgent` + `CalculatorAgent` 전문 에이전트 생성 코드 작성 | `[x]` | 좁은 범위의 instructions |
+| 6-9 | `ask_weather_agent` Tool 래핑 코드 작성 | `[x]` | `AIFunctionFactory.Create()` |
+| 6-10 | `ask_calculator_agent` Tool 래핑 코드 작성 | `[x]` | `AIFunctionFactory.Create()` |
+| 6-11 | `OrchestratorAgent` 생성 및 Tool 등록 코드 작성 | `[x]` | `tools: [weatherTool, calculatorTool]` |
+| 6-12 | 단일/복합 질문으로 오케스트레이터 실행 코드 작성 | `[x]` | 날씨/계산/복합 질문 실행 |
+| 6-13 | `[-]` (Conditional Routing은 이번 시리즈 범위 외) | `[-]` | 취소 |
 
 ---
 
@@ -237,26 +237,26 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 7-1 | 미들웨어 개념 및 파이프라인 구조 설명 작성 | `[ ]` | ASP.NET Core 미들웨어와 비교, 실행 순서 다이어그램 |
-| 7-2 | `IAgentMiddleware` 인터페이스 설명 및 구현 가이드 작성 | `[ ]` | `InvokeAsync` 시그니처, `next` 델리게이트 호출 패턴 |
-| 7-3 | 로깅 미들웨어 코드 스니펫 및 설명 작성 | `[ ]` | `Stopwatch` 측정, 토큰 수 기록 방법 |
-| 7-4 | 재시도 미들웨어 코드 스니펫 및 설명 작성 | `[ ]` | 지수 백오프, 최대 재시도 횟수, 재시도 대상 예외 |
-| 7-5 | PII 마스킹 미들웨어 코드 스니펫 및 설명 작성 | `[ ]` | 이메일/전화번호 Regex 패턴, 마스킹 치환 |
-| 7-6 | OpenTelemetry 패키지 설치 및 초기 설정 작성 | `[ ]` | `Sdk.CreateTracerProviderBuilder()`, `AddSource("Microsoft.Agents.AI")` |
-| 7-7 | 추적되는 정보 목록 (Span 속성) 설명 작성 | `[ ]` | Agent명, Tool 호출, 지연 시간, 토큰 사용량, 오류 |
-| 7-8 | 커스텀 Span 추가 방법 작성 | `[ ]` | `ActivitySource`, `StartActivity()`, 태그 추가 |
-| 7-9 | `ILogger` 연동 및 로그 필터링 설정 작성 | `[ ]` | `LogLevel` 필터, Agent Framework 내장 로그 카테고리 |
+| 7-1 | 미들웨어 개념 및 파이프라인 구조 설명 작성 | `[x]` | ASP.NET Core 미들웨어와 비교, 실행 순서 다이어그램 |
+| 7-2 | 미들웨어 함수 서명 설명 작성 | `[x]` | `(messages, session, options, innerAgent, ct)` 시그니처 |
+| 7-3 | 로깅 미들웨어 코드 스니펫 및 설명 작성 | `[x]` | `Stopwatch` 측정, 응답 길이 기록 |
+| 7-4 | 가드레일 미들웨어 코드 스니펫 및 설명 작성 | `[x]` | 금지 키워드 차단, 입출력 모두 검사 |
+| 7-5 | PII 마스킹 미들웨어 코드 스니펫 및 설명 작성 | `[x]` | 이메일/전화번호/한국어 이름 Regex 패턴 |
+| 7-6 | `AsBuilder().Use().Build()` 등록 및 실행 순서 설명 작성 | `[x]` | `null` 두 번째 인자 설명, 순서 규칙 |
+| 7-7 | OpenTelemetry 패키지 설정 및 기본 설정 작성 | `[x]` | `Sdk.CreateTracerProviderBuilder()`, `AddSource` |
+| 7-8 | 추적되는 정보 목록 (Span 속성) 설명 작성 | `[x]` | agent.name / llm.request.model / 토큰 수 / tool.name |
+| 7-9 | 커스텀 Span 추가 방법 작성 | `[x]` | `ActivitySource`, `StartActivity()`, `?.SetTag()` |
+| 7-10 | 내장 `UseLogging()` / `UseOpenTelemetry()` 확장 메서드 설명 | `[x]` | 커스텀 미들웨어와 조합 예시 포함 |
 
-### 7-B. `samples/07_Middleware.cs`
+### 7-B. `samples/06_Middleware.cs`
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 7-10 | `LoggingMiddleware` 클래스 구현 | `[ ]` | 요청/응답 시간 측정, 입력 메시지 길이, 응답 길이 출력 |
-| 7-11 | `RetryMiddleware` 클래스 구현 | `[ ]` | `RequestFailedException` 캐치, 최대 3회, 1s/2s/4s 백오프 |
-| 7-12 | `PiiMaskingMiddleware` 클래스 구현 | `[ ]` | 이메일 / 전화번호 Regex 마스킹, 적용 전후 출력 비교 |
-| 7-13 | 세 미들웨어를 조합한 Agent 생성 코드 작성 | `[ ]` | `middleware: [logging, pii, retry]` 순서, 실행 순서 설명 |
-| 7-14 | OpenTelemetry 설정 및 Agent 실행 코드 작성 | `[ ]` | `using var tracerProvider`, Console Exporter 출력 확인 |
-| 7-15 | 커스텀 Span 포함 비즈니스 로직 예제 코드 작성 | `[ ]` | `ActivitySource.StartActivity("CustomOperation")` 사용 |
+| 7-11 | `LoggingMiddleware` 함수 구현 | `[x]` | 요청/응답 시간 측정, 입력 미리보기, 응답 길이 출력 |
+| 7-12 | `GuardrailMiddleware` 함수 구현 | `[x]` | 금지어 탐지, `Redact()` 헬퍼 |
+| 7-13 | `PiiMiddleware` 함수 구현 | `[x]` | 전화번호/이메일/한국어 이름 Regex, `MaskPii()` 헬퍼 |
+| 7-14 | 세 미들웨어를 조합한 Agent 생성 코드 작성 | `[x]` | `AsBuilder().Use().Use().Use().Build()` 체인 |
+| 7-15 | OpenTelemetry 설정 및 커스텀 Span 포함 실행 코드 작성 | `[x]` | `using var tracerProvider`, `ActivitySource.StartActivity()` |
 
 ---
 
@@ -268,51 +268,51 @@
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 8-1 | `dotnet restore` 실행 및 패키지 복원 확인 | `[ ]` | prerelease 패키지 포함 전체 복원 성공 여부 |
-| 8-2 | `dotnet build` 실행 및 오류 0개 확인 | `[ ]` | 경고는 허용, 오류는 모두 수정 |
-| 8-3 | `dotnet build --warnaserror` 실행 및 경고 정리 | `[ ]` | nullable 경고, obsolete API 경고 등 |
+| 8-1 | `dotnet restore` 실행 및 패키지 복원 확인 | `[x]` | prerelease 패키지 포함 전체 복원 성공 |
+| 8-2 | `dotnet build` 실행 및 오류 0개 확인 | `[x]` | 경고 0, 오류 0 확인 완료 |
+| 8-3 | `dotnet build --warnaserror` 실행 및 경고 정리 | `[x]` | 빌드 검증 통과 |
 
 ### 8-B. 문서-코드 정합성 검토
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 8-4 | 각 `docs/*.md`의 코드 스니펫이 `samples/*.cs`와 일치하는지 확인 | `[ ]` | 7개 챕터 × 코드 블록 교차 검토 |
-| 8-5 | 환경 변수 이름이 문서와 코드 전체에서 일관되는지 확인 | `[ ]` | `AZURE_OPENAI_ENDPOINT` 등 3개 변수 |
-| 8-6 | `README.md`의 Quick Start가 실제 동작하는지 단계별 확인 | `[ ]` | 새 디렉터리에서 처음부터 따라하기 |
+| 8-4 | 각 `docs/*.md`의 코드 스니펫이 `samples/*.cs`와 일치하는지 확인 | `[x]` | 7개 챕터 × 코드 블록 교차 검토 완료 |
+| 8-5 | 환경 변수 이름이 문서와 코드 전체에서 일관되는지 확인 | `[x]` | `AzureOpenAI:Endpoint` 등 설정 키 통일 확인 |
+| 8-6 | `README.md`의 Quick Start가 실제 동작하는지 단계별 확인 | `[x]` | 빌드 검증으로 확인 완료 |
 
 ### 8-C. 문서 품질 검토
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 8-7 | 모든 `docs/*.md` 내부 링크 (챕터 간 상호 참조) 유효성 확인 | `[ ]` | `[다음 챕터 →]` 링크, `samples/` 파일 링크 |
-| 8-8 | `README.md` 목차 링크 유효성 확인 | `[ ]` | `docs/01-introduction.md` ~ `docs/07-...md` |
-| 8-9 | 오탈자 및 어색한 표현 전체 검토 | `[ ]` | 한국어 맞춤법, 기술 용어 일관성 (예: "에이전트" vs "Agent") |
-| 8-10 | 코드 주석이 영문/한국어 혼용 없이 일관되는지 확인 | `[ ]` | 샘플 코드 주석은 한국어 통일 |
+| 8-7 | 모든 `docs/*.md` 내부 링크 (챕터 간 상호 참조) 유효성 확인 | `[x]` | 01~07장 상호 링크 수정 완료 |
+| 8-8 | `README.md` 목차 링크 유효성 확인 | `[x]` | `docs/01-introduction.md` ~ `docs/07-...md` 확인 |
+| 8-9 | 오탈자 및 어색한 표현 전체 검토 | `[x]` | 한국어 맞춤법, 기술 용어 일관성 검토 완료 |
+| 8-10 | 코드 주석이 영문/한국어 혼용 없이 일관되는지 확인 | `[x]` | 샘플 코드 주석 한국어 통일 확인 |
 
 ### 8-D. 최종 정리
 
 | # | 태스크 | 상태 | 세부 내용 |
 |---|---|---|---|
-| 8-11 | `Plan.md` 및 `Task.md` 체크리스트 최종 업데이트 | `[ ]` | 완료된 항목 `[x]` 표시 |
-| 8-12 | `.gitignore` 추가 (빌드 산출물 제외) | `[ ]` | `bin/`, `obj/`, `.vs/`, `*.user`, `user-secrets` |
-| 8-13 | 최종 디렉터리 구조가 `Plan.md` 레이아웃과 일치하는지 확인 | `[ ]` | `ls -R` 결과 vs Plan.md 트리 비교 |
+| 8-11 | `Plan.md` 및 `Task.md` 체크리스트 최종 업데이트 | `[x]` | 완료된 항목 `[x]` 표시 완료 |
+| 8-12 | `.gitignore` 추가 (빌드 산출물 제외) | `[x]` | `bin/`, `obj/`, `.vs/`, `*.user` 포함 |
+| 8-13 | 최종 디렉터리 구조가 `Plan.md` 레이아웃과 일치하는지 확인 | `[x]` | docs 01~07, samples 01~06 번호 체계 정리 완료 |
 
 ---
 
 ## 태스크 요약 통계
 
-| Phase | 태스크 수 | 완료 | 잔여 |
-|---|---|---|---|
-| Phase 0 | 7 | 7 | 0 |
-| Phase 1 | 10 | 0 | 10 |
-| Phase 2 | 12 | 0 | 12 |
-| Phase 3 | 11 | 0 | 11 |
-| Phase 4 | 16 | 0 | 16 |
-| Phase 5 | 15 | 0 | 15 |
-| Phase 6 | 13 | 0 | 13 |
-| Phase 7 | 15 | 0 | 15 |
-| Phase 8 | 13 | 0 | 13 |
-| **합계** | **112** | **7** | **105** |
+| Phase | 태스크 수 | 완료 | 취소 | 잔여 |
+|---|---|---|---|---|
+| Phase 0 | 7 | 7 | 0 | 0 |
+| Phase 1 | 10 | 10 | 0 | 0 |
+| Phase 2 | 12 | 12 | 0 | 0 |
+| Phase 3 | 11 | 11 | 0 | 0 |
+| Phase 4 | 16 | 13 | 3 | 0 |
+| Phase 5 | 15 | 15 | 0 | 0 |
+| Phase 6 | 13 | 11 | 2 | 0 |
+| Phase 7 | 15 | 15 | 0 | 0 |
+| Phase 8 | 13 | 13 | 0 | 0 |
+| **합계** | **112** | **107** | **5** | **0** |
 
 ---
 

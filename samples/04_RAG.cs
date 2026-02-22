@@ -1,7 +1,7 @@
 // ============================================================
-// Chapter 5: RAG (Retrieval-Augmented Generation)
-// 파일: samples/05_RAG.cs
-// 관련 문서: docs/05-rag.md
+// Chapter 4: RAG (Retrieval-Augmented Generation)
+// 파일: samples/04_RAG.cs
+// 관련 문서: docs/04-rag.md
 //
 // 흐름:
 //   1) 문서 청크를 임베딩 → 메모리 내 List에 저장 (in-process)
@@ -16,7 +16,7 @@
 //   - Microsoft.Agents.AI.OpenAI      (Agent)
 //
 // 실행 방법:
-//   dotnet run --project AgentSamples.csproj -- 05
+//   dotnet run --project AgentSamples.csproj -- 04
 // ============================================================
 
 using Azure;
