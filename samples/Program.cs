@@ -23,7 +23,7 @@ IConfiguration config = new ConfigurationBuilder()
 // ── 샘플 선택 ─────────────────────────────────────────────────
 var sample = args.FirstOrDefault() ?? string.Empty;
 
-sample = "06";
+//sample = "06";
 
 switch (sample)
 {
